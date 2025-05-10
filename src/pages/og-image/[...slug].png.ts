@@ -1,5 +1,3 @@
-import RobotoMonoBold from "@/assets/roboto-mono-700.ttf";
-import RobotoMono from "@/assets/roboto-mono-regular.ttf";
 import { getAllPosts } from "@/data/post";
 import { siteConfig } from "@/site.config";
 import { getFormattedDate } from "@/utils/date";
@@ -8,17 +6,25 @@ import type { APIContext, InferGetStaticPropsType } from "astro";
 import satori, { type SatoriOptions } from "satori";
 import { html } from "satori-html";
 
+// Load fonts from remote URL instead of local files to avoid Netlify build issues
+const robotoMonoRegular = await fetch(
+	"https://api.fontsource.org/v1/fonts/roboto-mono/latin-400-normal.ttf"
+).then((res) => res.arrayBuffer());
+
+const robotoMonoBold = await fetch(
+	"https://api.fontsource.org/v1/fonts/roboto-mono/latin-700-normal.ttf"
+).then((res) => res.arrayBuffer());
+
 const ogOptions: SatoriOptions = {
-	// debug: true,
 	fonts: [
 		{
-			data: Buffer.from(RobotoMono),
+			data: robotoMonoRegular,
 			name: "Roboto Mono",
 			style: "normal",
 			weight: 400,
 		},
 		{
-			data: Buffer.from(RobotoMonoBold),
+			data: robotoMonoBold,
 			name: "Roboto Mono",
 			style: "normal",
 			weight: 700,

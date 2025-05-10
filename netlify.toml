@@ -1,2 +1,14 @@
 [build]
   command = 'pnpm build'
+  publish = "dist"
+
+# Add specific node version to ensure compatibility with all dependencies
+[build.environment]
+  NODE_VERSION = "18.18.0"
+  NPM_FLAGS = "--no-optional"
+
+# Add cache headers for images
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
