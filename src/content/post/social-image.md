@@ -18,6 +18,6 @@ If you open this markdown file `src/content/post/social-image.md` you'll see the
 ogImage: "/social-card.png"
 ```
 
-You can view the one set for this template page [here](https://astro-cactus.chriswilliams.dev/social-card.png).
+You can view the one set for this template page [here](https://selfrules.com/social-card.png).
 
 [^1]: The image itself can be located anywhere you like.
