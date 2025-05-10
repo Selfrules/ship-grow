@@ -1,0 +1,65 @@
+{
+  "$schema": "https://raw.githubusercontent.com/design-tokens/community-group/main/design-tokens.schema.json",
+
+  "color": {
+    /* ---- LIGHT THEME ------------------------------------------------ */
+    "light": {
+      "background":   { "value": "#FFFFFF",   "type": "color" },
+      "surface":      { "value": "#F8FAFC",   "type": "color" },   /* slate-50 */
+      "text":         { "value": "#0F172A",   "type": "color" },   /* slate-900 */
+      "textSubtle":   { "value": "#475569",   "type": "color" },   /* slate-600 */
+
+      "primary":      { "value": "#1E40AF",   "type": "color" },   /* blue-800 */
+      "onPrimary":    { "value": "#FFFFFF",   "type": "color" },
+
+      "accent":       { "value": "#0E7490",   "type": "color" },   /* cyan-800 */
+      "link":         { "value": "#1E40AF",   "type": "color" },
+      "visited":      { "value": "#0B4C8B",   "type": "color" },
+
+      "success":      { "value": "#15803D",   "type": "color" },   /* green-700 */
+      "warning":      { "value": "#854D0E",   "type": "color" },   /* amber-900 */
+      "error":        { "value": "#B91C1C",   "type": "color" },   /* red-700 */
+
+      "border":       { "value": "#E5E7EB",   "type": "color" },   /* gray-200 */
+      "shadow":       { "value": "rgba(15,23,42,0.08)", "type": "color" }
+    },
+
+    /* ---- DARK THEME ------------------------------------------------- */
+    "dark": {
+      "background":   { "value": "#0F172A",   "type": "color" },   /* slate-900 */
+      "surface":      { "value": "#1E293B",   "type": "color" },   /* slate-800 */
+      "text":         { "value": "#F8FAFC",   "type": "color" },   /* slate-50 */
+      "textSubtle":   { "value": "#CBD5E1",   "type": "color" },   /* slate-300 */
+
+      "primary":      { "value": "#60A5FA",   "type": "color" },   /* blue-400 */
+      "onPrimary":    { "value": "#0F172A",   "type": "color" },
+
+      "accent":       { "value": "#A3E635",   "type": "color" },   /* lime-400 */
+      "link":         { "value": "#60A5FA",   "type": "color" },
+      "visited":      { "value": "#3B82F6",   "type": "color" },
+
+      "success":      { "value": "#4ADE80",   "type": "color" },   /* green-400 */
+      "warning":      { "value": "#FACC15",   "type": "color" },   /* amber-400 */
+      "error":        { "value": "#F87171",   "type": "color" },   /* red-400 */
+
+      "border":       { "value": "#1E293B",   "type": "color" },
+      "shadow":       { "value": "rgba(0,0,0,0.60)", "type": "color" }
+    }
+  },
+
+  "radius": {
+    "sm": { "value": "0.125rem", "type": "borderRadius" },
+    "md": { "value": "0.375rem", "type": "borderRadius" },
+    "lg": { "value": "0.5rem",   "type": "borderRadius" }
+  },
+
+  "spacing": {
+    "0": { "value": "0rem",   "type": "spacing" },
+    "1": { "value": "0.25rem","type": "spacing" },
+    "2": { "value": "0.5rem", "type": "spacing" },
+    "3": { "value": "0.75rem","type": "spacing" },
+    "4": { "value": "1rem",   "type": "spacing" },
+    "5": { "value": "1.25rem","type": "spacing" },
+    "6": { "value": "1.5rem", "type": "spacing" }
+  }
+}

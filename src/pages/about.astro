@@ -2,35 +2,52 @@
 import PageLayout from "@/layouts/Base.astro";
 
 const meta = {
-	description: "I'm a starter theme for Astro.build",
+	description: "Product Manager who turns ambitious SaaS ideas into revenues with a data-driven approach",
 	title: "About",
 };
 ---
 
 <PageLayout meta={meta}>
-	<h1 class="title mb-6">About</h1>
+	<h1 class="title mb-6">🚀 About</h1>
 	<div class="prose prose-sm prose-cactus max-w-none">
-		<p>
-			Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-			website.
+		<p class="italic">
+			👋 Hi, I'm Mattia — a Product Manager who turns ambitious SaaS ideas into revenues you can plot on a hockey-stick graph (and explain in one slide). My craft sits at the crossroads of curiosity, code and commercial sense: I mine user insight, translate it into measurable roadmaps, then rally designers and engineers until the KPI dashboard turns green.
 		</p>
-		<p>Here are my some of my awesome built in features:</p>
+
+		<h3 class="text-lg font-bold mt-8 mb-3">🌟 Impact at a glance</h3>
 		<ul class="list-inside list-disc" role="list">
-			<li>I'm ultra fast as I'm a static site</li>
-			<li>I'm fully responsive</li>
-			<li>I come with a light and dark mode</li>
-			<li>I'm easy to customise and add additional content</li>
-			<li>I have Tailwind CSS styling</li>
-			<li>Shiki code syntax highlighting</li>
-			<li>Satori for auto generating OG images for blog posts</li>
+			<li><strong>LeadsBridge</strong> – shipped 400+ API integrations, grew to 2,500 daily active teams and lifted ARPU × 4 in 18 months.</li>
+			<li><strong>Product-Led Growth</strong> – built two engines that sliced time-to-value by 30% and kept churn under 4%.</li>
+			<li><strong>Agile@Scale</strong> – rolled out frameworks that doubled release cadence while pushing team NPS to 70.</li>
 		</ul>
-		<p>
-			Clone or fork my <a
-				class="cactus-link inline-block"
-				href="https://github.com/chrismwilliams/astro-cactus"
-				rel="noreferrer"
-				target="_blank">repo</a
-			> if you like me!
+
+		<h3 class="text-lg font-bold mt-8 mb-3">🛠️ My playbook</h3>
+		<ul class="list-inside list-disc" role="list">
+			<li><strong>Every sprint counts</strong> – backlog items map to OKRs so nobody ships in the dark.</li>
+			<li><strong>Data beats opinion</strong> – experiments run, metrics decide; no vanity reports.</li>
+			<li><strong>Teams first</strong> – cross-functional facilitation that melts silos and lets ideas win.</li>
+			<li><strong>Accessibility by default</strong> – products must work for everyone, not just the statistical average.</li>
+		</ul>
+
+		<p class="mt-6">
+			If you need a partner who can simplify complexity, inspire execution and nudge both investors and engineers in the same breath, let's talk.
 		</p>
+
+		<hr class="my-8 border-dashed" />
+
+		<div class="bg-[color:var(--color-surface)] p-6 rounded-lg border-l-4 border-[color:var(--color-accent-2)] text-center">
+			<h3 class="text-lg font-bold mb-2">✨ Ready to turn ideas into metrics that matter?</h3>
+			<a
+				href="https://cal.com/mattia/15min"
+				class="py-2 px-4 bg-[color:var(--color-accent-2)] text-[color:var(--color-on-primary)] rounded-md hover:opacity-90 transition-opacity inline-flex items-center gap-2 font-medium"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				📞 Book a 15-minute call →
+			</a>
+			<p class="text-sm mt-2 italic text-[color:var(--color-text-subtle)]">
+				(No boring slides — just sharp questions!)
+			</p>
+		</div>
 	</div>
 </PageLayout>
