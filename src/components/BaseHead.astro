@@ -1,5 +1,5 @@
 ---
-import { WEBMENTION_PINGBACK, WEBMENTION_URL } from "astro:env/client";
+// Replace the import with environment variables from import.meta.env
 import { siteConfig } from "@/site.config";
 import type { SiteMeta } from "@/types";
 import "@/styles/global.css";
@@ -12,6 +12,10 @@ const titleSeparator = "•";
 const siteTitle = `${title} ${titleSeparator} ${siteConfig.title}`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url).href;
+
+// Define webmention variables from environment
+const WEBMENTION_URL = import.meta.env.WEBMENTION_URL;
+const WEBMENTION_PINGBACK = import.meta.env.WEBMENTION_PINGBACK;
 ---
 
 <meta charset="utf-8" />

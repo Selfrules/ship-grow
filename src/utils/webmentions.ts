@@ -1,5 +1,6 @@
 import * as fs from "node:fs";
-import { WEBMENTION_API_KEY } from "astro:env/server";
+// Replace the import with environment variable from import.meta.env
+const WEBMENTION_API_KEY = import.meta.env.WEBMENTION_API_KEY;
 import type { WebmentionsCache, WebmentionsChildren, WebmentionsFeed } from "@/types";
 
 const DOMAIN = import.meta.env.SITE;

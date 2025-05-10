@@ -5,7 +5,7 @@ import tailwind from "@tailwindcss/vite";
 import robotsTxt from "astro-robots-txt";
 import webmanifest from "astro-webmanifest";
 import icon from "astro-icon";
-import { expressiveCodeOptions, siteConfig } from "./src/site.config";
+import { siteConfig } from "./src/site.config";
 
 // https://astro.build/config
 export default defineConfig({

@@ -1,7 +1,7 @@
 {
-	"name": "astro-cactus",
-	"version": "6.4.0",
-	"private": false,
+	"name": "selfrules-website",
+	"version": "1.0.0",
+	"private": true,
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
