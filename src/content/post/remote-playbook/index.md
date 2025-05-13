@@ -1,5 +1,5 @@
 ---
-title: "🏠🏢 Sopravvivere tra Pantofole e Scrivania"
+title: "🏠🏢 Sopravvivere tra Pantofole e Scrivania (it)"
 publishDate: "10 May 2025"
 description: "Una guida completa al lavoro remoto e ibrido per team che vogliono collaborare efficacemente, con principi e strumenti pratici."
 tags: ["remote-work", "hybrid-work", "productivity", "communication", "team-collaboration"]
